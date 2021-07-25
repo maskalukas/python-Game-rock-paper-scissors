@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="choice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="game.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="game_rock_paper_scissors.py" />
+    <Compile Include="options-list.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="options.py">
       <SubType>Code</SubType>
     </Compile>
